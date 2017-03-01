@@ -16,13 +16,13 @@ Return `"Exists"` if there is at least one cross on the given board. Otherwise, 
 
 ## Examples
 0. `{".##", "###","##."}`
-**Returns**: `"Exist"`
+**Returns**: `"Exists"`
 1. `{".##", "###", "#.."}`
 **Returns**: `"Does not exist"`
 This time there is no cross.
 2. `{"######", "######", "######", "######", "######", "######", "######"}`
-**Returns**: `"Exist"`
+**Returns**: `"Exists"`
 3. `{".#.#", "#.#.", ".#.#", "#.#."}`
 **Returns**: `"Does not exist"`
 4. `{".#.#", "###.", ".###", "#.#."}`
-**Returns**: `"Exist"`
+**Returns**: `"Exists"`
