@@ -11,22 +11,22 @@ It is guaranteed that the situation described by query and answer could have occ
 ## Examples
 0. `{3,2,2}`
 `{"Odd", "Odd", "Even"}`
-Returns: `1`
+**Returns**: `1`
 _Robot 1 gave the wrong answer. Thus, robot 1 is the corrupted robot_
 1. `{1,3,5,10}`
 `{"Odd", "Odd", "Odd", "Even"}`
-Returns: `0`
+**Returns**: `0`
 _All robots gave correct answers. Still, we can deduce that the corrupted robot must be robot 0. For example, robot 1 cannot be the corrupted robot: as robot 0's number was odd, robot 1 would have answered incorrectly if it were corrupted_
 2. `{2,3,5,10}`
 `{"Even", "Odd", "Odd", "Even"}`
-Returns: `-1`
+**Returns**: `-1`
 _Again, all robots gave correct answers. This time we cannot be sure which robot is corrupted. All we know is that it is either robot 0 or robot 1. Both possibilities are consistent with the given input data. Thus, we should return -1_
 3. `{2,4,6,10}`
 `{"Even", "Even", "Even", "Even"}`
-Returns: `-1`
+**Returns**: `-1`
 4. `{107}`
 `{"Odd"}`
-Returns: `0`
+**Returns**: `0`
 5. `{1,1,1}`
 `{"Odd", "Odd", "Even"}`
-Returns: `2`
+**Returns**: `2`
