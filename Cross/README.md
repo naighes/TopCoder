@@ -22,7 +22,7 @@ Return `"Exists"` if there is at least one cross on the given board. Otherwise, 
 This time there is no cross.
 2. `{"######", "######", "######", "######", "######", "######", "######"}`
 **Returns**: `"Exist"`
-3. `{".#.#", "#.#.", ".#.#", "#.#."}
+3. `{".#.#", "#.#.", ".#.#", "#.#."}`
 **Returns**: `"Does not exist"`
 4. `{".#.#", "###.", ".###", "#.#."}`
 **Returns**: `"Exist"`
